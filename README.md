@@ -12,20 +12,19 @@
 ----------
 
 
-##ئىشىلتىش ئۇسۇلى 
+## ئىشىلتىش ئۇسۇلى 
 html دىكى input  قا تۆۋەندىكىنى قاتىمىز
 
+```javascript
 <input id="name" type="text" placeholder="ئىسمى" name="firstname" onclick="onInputClick(this,'ئىسمى')" />
-
 <script>
 function onInputClick(inputitem,inputhint){
-window.location.href=    ('almas:'+inputitem.id+':'+inputitem.value+':'+inputhint)
+window.location.href= ('almas:'+inputitem.id+':'+inputitem.value+':'+inputhint)
 }
 function settext(inputitemid,value){
 document.getElementById(inputitemid).value=value
 }
 </script>
-
 
 ----------
 ## e-mail:822161777@qq.com
