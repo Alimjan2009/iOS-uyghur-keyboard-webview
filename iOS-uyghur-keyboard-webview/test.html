@@ -1,0 +1,19 @@
+<html>
+    
+    <head>
+        <script>
+            function onInputClick(inputitem,inputhint){
+                window.location.href=('almas:'+inputitem.id+':'+inputitem.value+':'+inputhint)
+            }
+        function settext(inputitemid,value){
+            document.getElementById(inputitemid).value=value
+        }
+        </script>
+    </head>
+    
+    <body>
+        
+        <input id="name" type="text" placeholder="ئىسمى" name="firstname" onclick="onInputClick(this,'ئىسمى')" />
+    </body>
+    
+</html>
